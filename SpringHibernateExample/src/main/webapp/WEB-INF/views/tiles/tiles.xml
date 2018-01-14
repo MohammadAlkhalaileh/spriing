@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+ 
+<tiles-definitions>  
+  
+   <!-- Base Definition -->
+   <definition name="base-definition"
+       template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp" />  
+   </definition>  
+  
+   <!-- Home Page -->
+   <definition name="index" extends="base-definition">  
+       <put-attribute name="title" value="Index" />  
+       <put-attribute name="body" value="/WEB-INF/views/index.jsp" />  
+   </definition>
+   
+     <!-- Departments Page -->
+   <definition name="departments2" extends="base-definition">  
+       <put-attribute name="title" value="Departments" />  
+       <put-attribute name="body" value="/WEB-INF/views/departments2.jsp" />  
+   </definition>
+   
+     <!-- Home Page -->
+   <definition name="employees2" extends="base-definition">  
+       <put-attribute name="title" value="Employees" />  
+       <put-attribute name="body" value="/WEB-INF/views/employees2.jsp" />  
+   </definition>
+   
+     <!-- Home Page -->
+   <definition name="report1-2" extends="base-definition">  
+       <put-attribute name="title" value="Report1" />  
+       <put-attribute name="body" value="/WEB-INF/views/report1-2.jsp" />  
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="report2-2" extends="base-definition">  
+       <put-attribute name="title" value="Report2" />  
+       <put-attribute name="body" value="/WEB-INF/views/report2-2.jsp" />  
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="report3-2" extends="base-definition">  
+       <put-attribute name="title" value="Report3" />  
+       <put-attribute name="body" value="/WEB-INF/views/report3-2.jsp" />  
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="report4-2" extends="base-definition">  
+       <put-attribute name="title" value="Report4" />  
+       <put-attribute name="body" value="/WEB-INF/views/report4-2.jsp" />  
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="report5-2" extends="base-definition">  
+       <put-attribute name="title" value="Report5" />  
+       <put-attribute name="body" value="/WEB-INF/views/report5-2.jsp" />  
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="report6-2" extends="base-definition">  
+       <put-attribute name="title" value="Report6" />  
+       <put-attribute name="body" value="/WEB-INF/views/report6-2.jsp" />  
+   </definition>
+  
+</tiles-definitions>
