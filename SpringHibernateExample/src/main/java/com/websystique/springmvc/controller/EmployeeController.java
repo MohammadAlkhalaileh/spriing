@@ -51,6 +51,7 @@ public class EmployeeController extends AbstractController{
 		model.addAttribute(employee);
 		model.addAttribute("edit", false);
 		model.addAttribute("loggedinuser", (String)req.getSession().getAttribute("username")); 	
+		System.out.println("lllllllllllll");
 		return EMPLOYEES;
 	}
 	
